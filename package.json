@@ -36,3 +36,8 @@
         "node": "16.x"
     }
 }
+{
+  "scripts": {
+    "start:w": "NODE_ENV=development nodemon --signal SIGQUIT -w dist dist/index.js"
+  }
+}
